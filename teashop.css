@@ -1,0 +1,656 @@
+@charset "UTF-8";
+body {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.background {
+  height: 100%;
+  width: 100%; }
+  .background .login-register {
+    width: 100%;
+    height: 17%;
+    background-color: #A0DB54;
+    margin-top: 0px; }
+    .background .login-register .List {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      justify-content: space-between; }
+      .background .login-register .List .login {
+        font-size: 93.75%;
+        color: #FFFFF7;
+        text-decoration: none;
+        margin-top: 3%;
+        margin-left: 1%; }
+      .background .login-register .List .register {
+        font-size: 93.75%;
+        color: #FFFFF7;
+        text-decoration: none;
+        margin-top: 3%;
+        margin-right: 23%; }
+      .background .login-register .List .TeaShop {
+        font-size: 200.75%;
+        color: #FFFFF7;
+        margin-top: 3%;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none; }
+      .background .login-register .List .basket {
+        font-size: 93.75%;
+        color: #FFFFF7;
+        text-decoration: none;
+        margin-top: 3%;
+        margin-left: 19%; }
+      .background .login-register .List .pay {
+        font-size: 93.75%;
+        color: #FFFFF7;
+        text-decoration: none;
+        margin-top: 3%;
+        margin-right: 1%; }
+  .background .Menu {
+    height: 13%;
+    width: 100%; }
+    .background .Menu .List2 {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      list-style: none;
+      margin: auto;
+      justify-content: space-between; }
+      .background .Menu .List2 .list2-1 {
+        margin-top: 2%;
+        margin-left: 7%; }
+        .background .Menu .List2 .list2-1 .home {
+          text-decoration: none;
+          color: black;
+          margin-top: 30px;
+          font-size: 115.75%;
+          text-transform: uppercase;
+          transition-duration: 1s; }
+        .background .Menu .List2 .list2-1 .home:hover {
+          color: red; }
+      .background .Menu .List2 .list2-2 {
+        margin-top: 2%; }
+        .background .Menu .List2 .list2-2 .about {
+          text-decoration: none;
+          color: black;
+          font-size: 115.75%;
+          text-transform: uppercase;
+          transition-duration: 1s; }
+        .background .Menu .List2 .list2-2 .about:hover {
+          color: red; }
+      .background .Menu .List2 .list2-3 {
+        margin-top: 2%; }
+        .background .Menu .List2 .list2-3 .product {
+          text-decoration: none;
+          color: black;
+          font-size: 115.75%;
+          text-transform: uppercase;
+          display: block;
+          transition-duration: 1s; }
+        .background .Menu .List2 .list2-3 .product:hover {
+          color: red; }
+      .background .Menu .List2 .list2-3:hover .list2-3-1 {
+        display: block; }
+      .background .Menu .List2 .list2-4 {
+        margin-top: 2%; }
+        .background .Menu .List2 .list2-4 .news {
+          text-decoration: none;
+          color: black;
+          font-size: 115.75%;
+          text-transform: uppercase;
+          transition-duration: 1s; }
+        .background .Menu .List2 .list2-4 .news:hover {
+          color: red; }
+      .background .Menu .List2 .list2-6 {
+        margin-top: 2%;
+        margin-right: 7%; }
+        .background .Menu .List2 .list2-6 .contact {
+          text-decoration: none;
+          color: black;
+          font-size: 115.75%;
+          text-transform: uppercase;
+          transition-duration: 1s; }
+        .background .Menu .List2 .list2-6 .contact:hover {
+          color: red; }
+  .background .baner {
+    height: 70%;
+    width: 100%;
+    position: relative; }
+    .background .baner .imgbaner {
+      height: 100%;
+      width: 100%;
+      display: block;
+      z-index: 1; }
+    .background .baner .baner2 {
+      display: none;
+      position: absolute;
+      top: 60%;
+      left: 13%;
+      padding: 0;
+      margin: 0;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 2;
+      height: 87%;
+      /* 604px */
+      width: 75%;
+      /* 1440px */
+      margin: auto;
+      display: flex; }
+      .background .baner .baner2 .baner2-1,
+      .background .baner .baner2 .baner2-2,
+      .background .baner .baner2 .baner2-3 {
+        height: 100%;
+        /* 604px */
+        width: 33.6%;
+        /* 483px */ }
+        .background .baner .baner2 .baner2-1 .c1,
+        .background .baner .baner2 .baner2-2 .c1,
+        .background .baner .baner2 .baner2-3 .c1 {
+          background-color: #F2C048; }
+        .background .baner .baner2 .baner2-1 .c2,
+        .background .baner .baner2 .baner2-2 .c2,
+        .background .baner .baner2 .baner2-3 .c2 {
+          background-color: #FF8B67; }
+        .background .baner .baner2 .baner2-1 .c3,
+        .background .baner .baner2 .baner2-2 .c3,
+        .background .baner .baner2 .baner2-3 .c3 {
+          background-color: #A0DB87; }
+        .background .baner .baner2 .baner2-1 .c1, .background .baner .baner2 .baner2-1 .c2, .background .baner .baner2 .baner2-1 .c3,
+        .background .baner .baner2 .baner2-2 .c1,
+        .background .baner .baner2 .baner2-2 .c2,
+        .background .baner .baner2 .baner2-2 .c3,
+        .background .baner .baner2 .baner2-3 .c1,
+        .background .baner .baner2 .baner2-3 .c2,
+        .background .baner .baner2 .baner2-3 .c3 {
+          width: 100%;
+          /* 483px */
+          height: 43.5%;
+          /* 210px */
+          padding-top: 8%;
+          transition-duration: 1s; }
+          .background .baner .baner2 .baner2-1 .c1 .c1-1, .background .baner .baner2 .baner2-1 .c1 .c2-1, .background .baner .baner2 .baner2-1 .c1 .c3-1, .background .baner .baner2 .baner2-1 .c2 .c1-1, .background .baner .baner2 .baner2-1 .c2 .c2-1, .background .baner .baner2 .baner2-1 .c2 .c3-1, .background .baner .baner2 .baner2-1 .c3 .c1-1, .background .baner .baner2 .baner2-1 .c3 .c2-1, .background .baner .baner2 .baner2-1 .c3 .c3-1,
+          .background .baner .baner2 .baner2-2 .c1 .c1-1,
+          .background .baner .baner2 .baner2-2 .c1 .c2-1,
+          .background .baner .baner2 .baner2-2 .c1 .c3-1,
+          .background .baner .baner2 .baner2-2 .c2 .c1-1,
+          .background .baner .baner2 .baner2-2 .c2 .c2-1,
+          .background .baner .baner2 .baner2-2 .c2 .c3-1,
+          .background .baner .baner2 .baner2-2 .c3 .c1-1,
+          .background .baner .baner2 .baner2-2 .c3 .c2-1,
+          .background .baner .baner2 .baner2-2 .c3 .c3-1,
+          .background .baner .baner2 .baner2-3 .c1 .c1-1,
+          .background .baner .baner2 .baner2-3 .c1 .c2-1,
+          .background .baner .baner2 .baner2-3 .c1 .c3-1,
+          .background .baner .baner2 .baner2-3 .c2 .c1-1,
+          .background .baner .baner2 .baner2-3 .c2 .c2-1,
+          .background .baner .baner2 .baner2-3 .c2 .c3-1,
+          .background .baner .baner2 .baner2-3 .c3 .c1-1,
+          .background .baner .baner2 .baner2-3 .c3 .c2-1,
+          .background .baner .baner2 .baner2-3 .c3 .c3-1 {
+            font-size: 250%;
+            color: #FFFFF7;
+            text-align: center;
+            text-transform: uppercase; }
+          .background .baner .baner2 .baner2-1 .c1 .c1-2, .background .baner .baner2 .baner2-1 .c1 .c2-2, .background .baner .baner2 .baner2-1 .c1 .c3-2, .background .baner .baner2 .baner2-1 .c2 .c1-2, .background .baner .baner2 .baner2-1 .c2 .c2-2, .background .baner .baner2 .baner2-1 .c2 .c3-2, .background .baner .baner2 .baner2-1 .c3 .c1-2, .background .baner .baner2 .baner2-1 .c3 .c2-2, .background .baner .baner2 .baner2-1 .c3 .c3-2,
+          .background .baner .baner2 .baner2-2 .c1 .c1-2,
+          .background .baner .baner2 .baner2-2 .c1 .c2-2,
+          .background .baner .baner2 .baner2-2 .c1 .c3-2,
+          .background .baner .baner2 .baner2-2 .c2 .c1-2,
+          .background .baner .baner2 .baner2-2 .c2 .c2-2,
+          .background .baner .baner2 .baner2-2 .c2 .c3-2,
+          .background .baner .baner2 .baner2-2 .c3 .c1-2,
+          .background .baner .baner2 .baner2-2 .c3 .c2-2,
+          .background .baner .baner2 .baner2-2 .c3 .c3-2,
+          .background .baner .baner2 .baner2-3 .c1 .c1-2,
+          .background .baner .baner2 .baner2-3 .c1 .c2-2,
+          .background .baner .baner2 .baner2-3 .c1 .c3-2,
+          .background .baner .baner2 .baner2-3 .c2 .c1-2,
+          .background .baner .baner2 .baner2-3 .c2 .c2-2,
+          .background .baner .baner2 .baner2-3 .c2 .c3-2,
+          .background .baner .baner2 .baner2-3 .c3 .c1-2,
+          .background .baner .baner2 .baner2-3 .c3 .c2-2,
+          .background .baner .baner2 .baner2-3 .c3 .c3-2 {
+            font-size: 200%;
+            color: #FFFFF7;
+            text-align: center;
+            margin-top: 0%; }
+        .background .baner .baner2 .baner2-1 .h1, .background .baner .baner2 .baner2-1 .h2, .background .baner .baner2 .baner2-1 .h3,
+        .background .baner .baner2 .baner2-2 .h1,
+        .background .baner .baner2 .baner2-2 .h2,
+        .background .baner .baner2 .baner2-2 .h3,
+        .background .baner .baner2 .baner2-3 .h1,
+        .background .baner .baner2 .baner2-3 .h2,
+        .background .baner .baner2 .baner2-3 .h3 {
+          height: 56.5%;
+          /* 283.24px */
+          width: 100%;
+          overflow: hidden; }
+          .background .baner .baner2 .baner2-1 .h1 .h1-img, .background .baner .baner2 .baner2-1 .h1 .h2-img, .background .baner .baner2 .baner2-1 .h1 .h3-img, .background .baner .baner2 .baner2-1 .h2 .h1-img, .background .baner .baner2 .baner2-1 .h2 .h2-img, .background .baner .baner2 .baner2-1 .h2 .h3-img, .background .baner .baner2 .baner2-1 .h3 .h1-img, .background .baner .baner2 .baner2-1 .h3 .h2-img, .background .baner .baner2 .baner2-1 .h3 .h3-img,
+          .background .baner .baner2 .baner2-2 .h1 .h1-img,
+          .background .baner .baner2 .baner2-2 .h1 .h2-img,
+          .background .baner .baner2 .baner2-2 .h1 .h3-img,
+          .background .baner .baner2 .baner2-2 .h2 .h1-img,
+          .background .baner .baner2 .baner2-2 .h2 .h2-img,
+          .background .baner .baner2 .baner2-2 .h2 .h3-img,
+          .background .baner .baner2 .baner2-2 .h3 .h1-img,
+          .background .baner .baner2 .baner2-2 .h3 .h2-img,
+          .background .baner .baner2 .baner2-2 .h3 .h3-img,
+          .background .baner .baner2 .baner2-3 .h1 .h1-img,
+          .background .baner .baner2 .baner2-3 .h1 .h2-img,
+          .background .baner .baner2 .baner2-3 .h1 .h3-img,
+          .background .baner .baner2 .baner2-3 .h2 .h1-img,
+          .background .baner .baner2 .baner2-3 .h2 .h2-img,
+          .background .baner .baner2 .baner2-3 .h2 .h3-img,
+          .background .baner .baner2 .baner2-3 .h3 .h1-img,
+          .background .baner .baner2 .baner2-3 .h3 .h2-img,
+          .background .baner .baner2 .baner2-3 .h3 .h3-img {
+            height: 100%;
+            width: 100%;
+            transition-duration: 1s; }
+          .background .baner .baner2 .baner2-1 .h1 .h1-img:hover, .background .baner .baner2 .baner2-1 .h1 .h2-img:hover, .background .baner .baner2 .baner2-1 .h1 .h3-img:hover, .background .baner .baner2 .baner2-1 .h2 .h1-img:hover, .background .baner .baner2 .baner2-1 .h2 .h2-img:hover, .background .baner .baner2 .baner2-1 .h2 .h3-img:hover, .background .baner .baner2 .baner2-1 .h3 .h1-img:hover, .background .baner .baner2 .baner2-1 .h3 .h2-img:hover, .background .baner .baner2 .baner2-1 .h3 .h3-img:hover,
+          .background .baner .baner2 .baner2-2 .h1 .h1-img:hover,
+          .background .baner .baner2 .baner2-2 .h1 .h2-img:hover,
+          .background .baner .baner2 .baner2-2 .h1 .h3-img:hover,
+          .background .baner .baner2 .baner2-2 .h2 .h1-img:hover,
+          .background .baner .baner2 .baner2-2 .h2 .h2-img:hover,
+          .background .baner .baner2 .baner2-2 .h2 .h3-img:hover,
+          .background .baner .baner2 .baner2-2 .h3 .h1-img:hover,
+          .background .baner .baner2 .baner2-2 .h3 .h2-img:hover,
+          .background .baner .baner2 .baner2-2 .h3 .h3-img:hover,
+          .background .baner .baner2 .baner2-3 .h1 .h1-img:hover,
+          .background .baner .baner2 .baner2-3 .h1 .h2-img:hover,
+          .background .baner .baner2 .baner2-3 .h1 .h3-img:hover,
+          .background .baner .baner2 .baner2-3 .h2 .h1-img:hover,
+          .background .baner .baner2 .baner2-3 .h2 .h2-img:hover,
+          .background .baner .baner2 .baner2-3 .h2 .h3-img:hover,
+          .background .baner .baner2 .baner2-3 .h3 .h1-img:hover,
+          .background .baner .baner2 .baner2-3 .h3 .h2-img:hover,
+          .background .baner .baner2 .baner2-3 .h3 .h3-img:hover {
+            transform: scale(1.25, 1.25); }
+      .background .baner .baner2 .baner2-1 .c1:hover {
+        background-color: #BE9243; }
+      .background .baner .baner2 .baner2-2 .c2:hover {
+        background-color: #F57378; }
+      .background .baner .baner2 .baner2-3 .c3:hover {
+        background-color: #82D6A2; }
+  .background .thotra {
+    height: 52%;
+    width: 100%;
+    background-color: #EAE4D1;
+    color: #65453B;
+    padding-top: 15%;
+    font-size: 128%;
+    text-align: center; }
+  .background .aboutShop {
+    height: 100%;
+    width: 100%;
+    background-color: #EAE4D1;
+    border-top: 1px solid #EAE4D1; }
+    .background .aboutShop .aboutShop1 {
+      margin-top: 3%;
+      width: 100%;
+      height: 10%; }
+      .background .aboutShop .aboutShop1 .aboutShop1-1 {
+        color: #65453B;
+        text-transform: uppercase;
+        font-size: 187.5%;
+        font-weight: bold;
+        margin-left: 45%; }
+      .background .aboutShop .aboutShop1 .aboutShop1-2 {
+        color: #65453B;
+        text-transform: uppercase;
+        text-align: justify;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 0.03%; }
+    .background .aboutShop .aboutShop2 {
+      height: 60%;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10%; }
+      .background .aboutShop .aboutShop2 .aboutShop2-1,
+      .background .aboutShop .aboutShop2 .aboutShop2-2,
+      .background .aboutShop .aboutShop2 .aboutShop2-3 {
+        transition-duration: 2s;
+        height: 100%;
+        width: 32%;
+        border: 1px solid white; }
+        .background .aboutShop .aboutShop2 .aboutShop2-1:hover,
+        .background .aboutShop .aboutShop2 .aboutShop2-2:hover,
+        .background .aboutShop .aboutShop2 .aboutShop2-3:hover {
+          background-color: #F1D184; }
+        .background .aboutShop .aboutShop2 .aboutShop2-1 .aboutShop2-1-1,
+        .background .aboutShop .aboutShop2 .aboutShop2-1 .aboutShop2-2-1,
+        .background .aboutShop .aboutShop2 .aboutShop2-1 .aboutShop2-3-1,
+        .background .aboutShop .aboutShop2 .aboutShop2-2 .aboutShop2-1-1,
+        .background .aboutShop .aboutShop2 .aboutShop2-2 .aboutShop2-2-1,
+        .background .aboutShop .aboutShop2 .aboutShop2-2 .aboutShop2-3-1,
+        .background .aboutShop .aboutShop2 .aboutShop2-3 .aboutShop2-1-1,
+        .background .aboutShop .aboutShop2 .aboutShop2-3 .aboutShop2-2-1,
+        .background .aboutShop .aboutShop2 .aboutShop2-3 .aboutShop2-3-1 {
+          margin-left: 25%;
+          margin-top: 10%;
+          height: 45%;
+          width: 50%; }
+        .background .aboutShop .aboutShop2 .aboutShop2-1 .aboutShop2-1-2,
+        .background .aboutShop .aboutShop2 .aboutShop2-1 .aboutShop2-2-2,
+        .background .aboutShop .aboutShop2 .aboutShop2-1 .aboutShop2-3-2,
+        .background .aboutShop .aboutShop2 .aboutShop2-2 .aboutShop2-1-2,
+        .background .aboutShop .aboutShop2 .aboutShop2-2 .aboutShop2-2-2,
+        .background .aboutShop .aboutShop2 .aboutShop2-2 .aboutShop2-3-2,
+        .background .aboutShop .aboutShop2 .aboutShop2-3 .aboutShop2-1-2,
+        .background .aboutShop .aboutShop2 .aboutShop2-3 .aboutShop2-2-2,
+        .background .aboutShop .aboutShop2 .aboutShop2-3 .aboutShop2-3-2 {
+          text-transform: uppercase;
+          color: #FFFFFF;
+          font-size: 218.75%;
+          margin-left: 20%;
+          font-family: Arial, Helvetica, sans-serif; }
+        .background .aboutShop .aboutShop2 .aboutShop2-1 .aboutShop2-1-3,
+        .background .aboutShop .aboutShop2 .aboutShop2-1 .aboutShop2-2-3,
+        .background .aboutShop .aboutShop2 .aboutShop2-1 .aboutShop2-3-3,
+        .background .aboutShop .aboutShop2 .aboutShop2-2 .aboutShop2-1-3,
+        .background .aboutShop .aboutShop2 .aboutShop2-2 .aboutShop2-2-3,
+        .background .aboutShop .aboutShop2 .aboutShop2-2 .aboutShop2-3-3,
+        .background .aboutShop .aboutShop2 .aboutShop2-3 .aboutShop2-1-3,
+        .background .aboutShop .aboutShop2 .aboutShop2-3 .aboutShop2-2-3,
+        .background .aboutShop .aboutShop2 .aboutShop2-3 .aboutShop2-3-3 {
+          color: #FFFFFF;
+          font-size: 125%;
+          margin-left: 24%;
+          font-family: Arial, Helvetica, sans-serif; }
+      @media (max-width: 1000px) {
+        .background .aboutShop .aboutShop2 {
+          display: none; } }
+  .background .Sp {
+    width: 80,2%;
+    height: 64,8%; }
+    .background .Sp .NewsProduct {
+      width: 91,50%;
+      height: 12%;
+      margin: auto;
+      text-transform: uppercase;
+      display: flex; }
+      .background .Sp .NewsProduct .spm {
+        margin-top: 1%;
+        margin-left: 45%;
+        color: black;
+        font-size: 175.5%;
+        font-weight: bold; }
+      .background .Sp .NewsProduct .circleleft {
+        margin-top: 1%;
+        margin-left: 23%;
+        font-size: 170.5%; }
+      .background .Sp .NewsProduct .circleleft:hover {
+        cursor: pointer; }
+      .background .Sp .NewsProduct .circleright {
+        margin-top: 1%;
+        margin-left: 1%;
+        font-size: 170.5%; }
+      .background .Sp .NewsProduct .circleright:hover {
+        cursor: pointer; }
+    .background .Sp .Sanpham {
+      height: 79.71%;
+      width: 91.50%;
+      margin: auto;
+      margin-top: 1%;
+      position: relative;
+      background-color: #B5DDAB; }
+      .background .Sp .Sanpham .sp1 {
+        height: 85%;
+        width: 85.1%;
+        margin-left: 7%;
+        display: flex; }
+        .background .Sp .Sanpham .sp1 .sp1-1 {
+          height: 100%;
+          width: 49%;
+          background-color: whitesmoke;
+          border-radius: 2%; }
+          .background .Sp .Sanpham .sp1 .sp1-1 .sp1-1h {
+            height: 60%;
+            width: 90%;
+            transition-duration: 2s;
+            margin-left: 4%; }
+          .background .Sp .Sanpham .sp1 .sp1-1 .sp1-1h:hover {
+            filter: blur(5px); }
+          .background .Sp .Sanpham .sp1 .sp1-1 .sp1-1c {
+            margin-top: 1%;
+            font-size: 180%;
+            margin-left: 18%;
+            text-decoration: none; }
+          .background .Sp .Sanpham .sp1 .sp1-1 .sp1-1g {
+            display: flex; }
+            .background .Sp .Sanpham .sp1 .sp1-1 .sp1-1g .sp1-1g1 {
+              font-size: 130.25%;
+              margin-left: 25%; }
+            .background .Sp .Sanpham .sp1 .sp1-1 .sp1-1g .sp1-1g2 {
+              font-size: 130.25%; }
+            .background .Sp .Sanpham .sp1 .sp1-1 .sp1-1g .sp1-1g2:hover {
+              cursor: pointer; }
+        .background .Sp .Sanpham .sp1 .sp1-2 {
+          height: 100%;
+          width: 49%;
+          background-color: whitesmoke;
+          border-radius: 2%;
+          margin-left: 2%; }
+          .background .Sp .Sanpham .sp1 .sp1-2 .sp1-2h {
+            height: 60%;
+            width: 90%;
+            transition-duration: 2s;
+            margin-left: 4%; }
+          .background .Sp .Sanpham .sp1 .sp1-2 .sp1-2h:hover {
+            filter: blur(5px); }
+          .background .Sp .Sanpham .sp1 .sp1-2 .sp1-2c {
+            margin-top: 1%;
+            font-size: 180%;
+            margin-left: 18%;
+            text-decoration: none; }
+          .background .Sp .Sanpham .sp1 .sp1-2 .sp1-2g {
+            display: flex; }
+            .background .Sp .Sanpham .sp1 .sp1-2 .sp1-2g .sp1-2g1 {
+              font-size: 130.25%;
+              margin-left: 25%; }
+            .background .Sp .Sanpham .sp1 .sp1-2 .sp1-2g .sp1-2g2 {
+              font-size: 130.25%; }
+            .background .Sp .Sanpham .sp1 .sp1-2 .sp1-2g .sp1-2g2:hover {
+              cursor: pointer; }
+      .background .Sp .Sanpham .sp2 {
+        width: 85.1%;
+        height: 85%;
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 7%;
+        padding: 0;
+        margin: 0; }
+        .background .Sp .Sanpham .sp2 .sp2-1 {
+          height: 100%;
+          width: 49%;
+          background-color: whitesmoke;
+          border-radius: 2%; }
+          .background .Sp .Sanpham .sp2 .sp2-1 .sp2-1h {
+            height: 60%;
+            width: 90%;
+            transition-duration: 2s;
+            margin-left: 4%; }
+          .background .Sp .Sanpham .sp2 .sp2-1 .sp2-1h:hover {
+            filter: blur(5px); }
+          .background .Sp .Sanpham .sp2 .sp2-1 .sp2-1c {
+            margin-top: 1%;
+            font-size: 180%;
+            margin-left: 18%;
+            text-decoration: none; }
+          .background .Sp .Sanpham .sp2 .sp2-1 .sp2-1g {
+            display: flex; }
+            .background .Sp .Sanpham .sp2 .sp2-1 .sp2-1g .sp2-1g1 {
+              font-size: 130.25%;
+              margin-left: 25%; }
+            .background .Sp .Sanpham .sp2 .sp2-1 .sp2-1g .sp2-1g2 {
+              font-size: 130.25%; }
+            .background .Sp .Sanpham .sp2 .sp2-1 .sp2-1g .sp2-1g2:hover {
+              cursor: pointer; }
+        .background .Sp .Sanpham .sp2 .sp2-2 {
+          height: 100%;
+          width: 49%;
+          background-color: whitesmoke;
+          border-radius: 2%;
+          margin-left: 2%; }
+          .background .Sp .Sanpham .sp2 .sp2-2 .sp2-2h {
+            height: 60%;
+            width: 90%;
+            transition-duration: 2s;
+            margin-left: 4%; }
+          .background .Sp .Sanpham .sp2 .sp2-2 .sp2-2h:hover {
+            filter: blur(5px); }
+          .background .Sp .Sanpham .sp2 .sp2-2 .sp2-2c {
+            margin-top: 1%;
+            font-size: 180%;
+            margin-left: 18%;
+            text-decoration: none; }
+          .background .Sp .Sanpham .sp2 .sp2-2 .sp2-2g {
+            display: flex; }
+            .background .Sp .Sanpham .sp2 .sp2-2 .sp2-2g .sp2-2g1 {
+              font-size: 130.25%;
+              margin-left: 25%; }
+            .background .Sp .Sanpham .sp2 .sp2-2 .sp2-2g .sp2-2g2 {
+              font-size: 130.25%; }
+            .background .Sp .Sanpham .sp2 .sp2-2 .sp2-2g .sp2-2g2:hover {
+              cursor: pointer; }
+  .background .Tintuc {
+    height: 100%;
+    width: 100%;
+    background-color: #95DECB;
+    margin-top: 1%; }
+    .background .Tintuc .Baiviet {
+      height: 4%;
+      width: 100%;
+      padding-left: 45%;
+      font-size: 165%;
+      font-weight: bold; }
+    .background .Tintuc .Tin {
+      height: 95%;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      gap: 2%;
+      /* khoảng cách giữa các cột */
+      background-color: #C1C1C1;
+      margin-top: 1%; }
+      .background .Tintuc .Tin .Tin1 {
+        margin-left: 0%; }
+      .background .Tintuc .Tin .Tin1, .background .Tintuc .Tin .Tin2, .background .Tintuc .Tin .Tin3 {
+        width: 33%;
+        height: 100%;
+        background-color: #FFFFFF; }
+        .background .Tintuc .Tin .Tin1 .Tin1-1, .background .Tintuc .Tin .Tin1 .Tin2-1, .background .Tintuc .Tin .Tin1 .Tin3-1, .background .Tintuc .Tin .Tin2 .Tin1-1, .background .Tintuc .Tin .Tin2 .Tin2-1, .background .Tintuc .Tin .Tin2 .Tin3-1, .background .Tintuc .Tin .Tin3 .Tin1-1, .background .Tintuc .Tin .Tin3 .Tin2-1, .background .Tintuc .Tin .Tin3 .Tin3-1 {
+          height: 20%;
+          width: 100%; }
+        .background .Tintuc .Tin .Tin1 .Tin1-2, .background .Tintuc .Tin .Tin1 .Tin2-2, .background .Tintuc .Tin .Tin1 .Tin3-2, .background .Tintuc .Tin .Tin2 .Tin1-2, .background .Tintuc .Tin .Tin2 .Tin2-2, .background .Tintuc .Tin .Tin2 .Tin3-2, .background .Tintuc .Tin .Tin3 .Tin1-2, .background .Tintuc .Tin .Tin3 .Tin2-2, .background .Tintuc .Tin .Tin3 .Tin3-2 {
+          width: 100%;
+          height: 5%;
+          font-size: 100%;
+          font-weight: bold; }
+        .background .Tintuc .Tin .Tin1 .Tin1-3, .background .Tintuc .Tin .Tin1 .Tin2-3, .background .Tintuc .Tin .Tin1 .Tin3-3, .background .Tintuc .Tin .Tin2 .Tin1-3, .background .Tintuc .Tin .Tin2 .Tin2-3, .background .Tintuc .Tin .Tin2 .Tin3-3, .background .Tintuc .Tin .Tin3 .Tin1-3, .background .Tintuc .Tin .Tin3 .Tin2-3, .background .Tintuc .Tin .Tin3 .Tin3-3 {
+          font-size: 100%;
+          margin-top: 1%; }
+  .background .DN {
+    height: 46,296%;
+    width: 100%; }
+    .background .DN .DN1 {
+      font-size: 250%;
+      margin-left: 7%;
+      margin-top: 8%; }
+  .background .DK {
+    height: 46,296%;
+    width: 100%; }
+    .background .DK .DK1 {
+      font-size: 250%;
+      margin-left: 7%;
+      margin-top: 8%; }
+  .background .giohang {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2%; }
+    .background .giohang h1 {
+      font-size: 150%;
+      font-weight: bold;
+      margin-bottom: 2%; }
+    .background .giohang .ght {
+      border: 1px solid #ddd;
+      margin-bottom: 2%; }
+      .background .giohang .ght .ght-header, .background .giohang .ght .ght-row, .background .giohang .ght .ght-footer {
+        display: flex;
+        padding: 1%;
+        align-items: center;
+        border-bottom: 1px solid #ddd; }
+        .background .giohang .ght .ght-header div, .background .giohang .ght .ght-row div, .background .giohang .ght .ght-footer div {
+          flex: 1;
+          text-align: center;
+          font-size: 90%; }
+      .background .giohang .ght .ght-header {
+        background-color: #f8f9fa;
+        font-weight: bold; }
+      .background .giohang .ght .ght-row:last-child, .background .giohang .ght .ght-footer {
+        border-bottom: none; }
+      .background .giohang .ght .product-image {
+        width: 80%;
+        height: auto;
+        max-width: 100px;
+        object-fit: cover; }
+      .background .giohang .ght .quantity-input {
+        width: 60%;
+        padding: 5%;
+        text-align: center; }
+      .background .giohang .ght .delete-button {
+        background: none;
+        border: none;
+        font-size: 100%;
+        color: red;
+        cursor: pointer; }
+    .background .giohang .action-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2%; }
+      .background .giohang .action-buttons .continue-shopping, .background .giohang .action-buttons .checkout-button {
+        padding: 2% 4%;
+        border: none;
+        border-radius: 4px;
+        color: #ffffff;
+        font-size: 100%;
+        cursor: pointer; }
+        .background .giohang .action-buttons .continue-shopping:hover, .background .giohang .action-buttons .checkout-button:hover {
+          filter: brightness(90%); }
+      .background .giohang .action-buttons .continue-shopping {
+        background-color: #28a745; }
+      .background .giohang .action-buttons .checkout-button {
+        background-color: #0D6EFD; }
+  .background .Lienhe {
+    height: 60.19%;
+    width: 80.40%;
+    margin-top: 2%;
+    display: flex; }
+    .background .Lienhe .contact1 {
+      width: 41.67%;
+      height: 100%;
+      margin-top: 70px; }
+    .background .Lienhe .Thongtin {
+      height: 100%;
+      width: 36.46%;
+      margin-top: 12%; }
+      .background .Lienhe .Thongtin .bando {
+        width: 100%;
+        height: 80.60%; }
+  .background .Muiten {
+    font-size: 250%;
+    margin-left: 80%; }
+  .background .Muiten:hover {
+    cursor: pointer; }
+
+/*# sourceMappingURL=teashop.css.map */

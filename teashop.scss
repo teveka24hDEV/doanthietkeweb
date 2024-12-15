@@ -1,0 +1,790 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    //width: 1920px;
+    //height:1080px;
+    .login-register{
+      
+        width: 100%;//1920px;
+        height: 17%;//183.6px;
+        background-color: #A0DB54;
+        margin-top: 0px;
+        
+        .List{
+            display: flex;
+            width: 100%;//1920px;
+            height: 100%;//183.6px;
+            margin: auto;
+            justify-content: space-between; 
+
+            .login{
+                font-size: 93.75%;
+                color: #FFFFF7;
+                text-decoration: none;
+                margin-top: 3%;
+                margin-left: 1%;
+            }
+            .register{
+                font-size: 93.75%;
+                color: #FFFFF7;
+                text-decoration: none;            
+                margin-top: 3%;
+                margin-right: 23%;
+            }
+
+            .TeaShop{
+                font-size: 200.75%;
+                color: #FFFFF7;             
+                margin-top: 3%;
+                font-weight: bold;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-decoration: none;
+            }
+
+            .basket{
+                font-size: 93.75%;
+                color: #FFFFF7;
+                text-decoration: none;          
+                margin-top: 3%;
+                margin-left: 19%;
+            }
+        
+            .pay{
+                font-size: 93.75%;
+                color: #FFFFF7;
+                text-decoration: none;
+                margin-top: 3%;
+                margin-right: 1%;
+            }
+
+        }
+    }
+
+    .Menu{
+        height: 13%;//140.4px;
+        width: 100%; //width: 1920px;
+   
+        .List2{
+            height: 100%;//140.4px;
+            width: 100%;//width: 1920px;
+            display: flex;
+            list-style: none;
+            margin: auto;
+            justify-content: space-between; 
+
+            .list2-1{
+             margin-top: 2%;
+             margin-left: 7%;
+                .home{
+                    text-decoration: none;
+                    color:black;
+                    margin-top: 30px;
+                    font-size: 115.75%;
+                    text-transform: uppercase;
+                    transition-duration: 1s;
+                   }
+
+                 .home:hover{
+                    color: red;
+                 }  
+            }
+         
+            .list2-2{
+                margin-top: 2%;
+                .about{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 115.75%;
+                    text-transform: uppercase;
+                    transition-duration: 1s;
+                   }
+                .about:hover{
+                    color: red;
+                }   
+
+            }
+           
+            
+            .list2-3{
+                margin-top: 2%;
+                .product
+                    {
+                        text-decoration: none;
+                        color: black;
+                        font-size: 115.75%;
+                        text-transform: uppercase;
+                        display: block; 
+                        transition-duration: 1s;
+                    }
+                    .product:hover{
+                        color: red;
+                    }
+            }
+            .list2-3:hover .list2-3-1 {
+                display: block;
+            }
+         
+            .list2-4{
+                margin-top: 2%;
+                .news{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 115.75%;
+                    text-transform: uppercase;
+                    transition-duration: 1s;
+                   }
+                .news:hover{
+                    color: red;
+                }
+            }
+          
+            .list2-6{
+                margin-top: 2%;
+                margin-right: 7%;
+                .contact{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 115.75%;
+                    text-transform: uppercase;
+                    transition-duration: 1s;
+                   }
+                .contact:hover{
+                    color: red;
+                } 
+               
+            }
+        
+
+        }
+    }
+
+    .baner{
+        height: 70%;//756px;
+        width: 100%; //width: 1920px;
+        position: relative;
+        .imgbaner{
+            height: 100%;//756px;
+            width: 100%;//width: 1920px;
+            display: block;
+            z-index: 1;
+        }
+        .baner2 {
+            display: none;
+            position: absolute;
+            top: 60%;
+            left: 13%;
+            padding: 0;
+            margin: 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 2;
+            height: 87%; /* 604px */
+            width: 75%; /* 1440px */
+            margin: auto;
+            display: flex;
+        
+            .baner2-1,
+            .baner2-2,
+            .baner2-3 {
+                height: 100%; /* 604px */
+                width: 33.6%; /* 483px */
+        
+                .c1{
+                    background-color:#F2C048;
+                }
+
+                .c2{
+                    background-color:#FF8B67;
+                }
+
+                .c3{
+                    background-color:#A0DB87;
+                }
+                .c1, .c2, .c3 {
+                    width: 100%; /* 483px */
+                    height: 43.5%; /* 210px */
+                    padding-top: 8%;
+                    transition-duration: 1s;
+        
+                    .c1-1, .c2-1, .c3-1 {
+                        font-size: 250%;
+                        color: #FFFFF7;
+                        text-align: center;
+                        text-transform: uppercase;
+                    }
+        
+                    .c1-2, .c2-2, .c3-2 {
+                        font-size: 200%;
+                        color: #FFFFF7;
+                        text-align: center;
+                        margin-top: 0%;
+                    }
+                }
+        
+                .h1, .h2, .h3 {
+                    height: 56.5%; /* 283.24px */
+                    width: 100%;
+                    overflow: hidden;
+        
+                    .h1-img, .h2-img, .h3-img {
+                        height: 100%;
+                        width: 100%;
+                        transition-duration: 1s;
+                    }
+                    .h1-img:hover, .h2-img:hover, .h3-img:hover {
+                        transform: scale(1.25, 1.25);
+                    }
+                }
+            }
+        
+            .baner2-1 .c1:hover{
+                background-color: #BE9243;
+            }
+            .baner2-2 .c2:hover {
+                background-color: #F57378;
+            }
+        
+            .baner2-3 .c3:hover {
+                background-color: #82D6A2;
+            }
+        }
+    }        
+
+    .thotra{
+        height: 52%;//864px;
+        width: 100%;//1920px;
+        background-color: #EAE4D1;
+        color: #65453B;
+        padding-top: 15%;
+        font-size: 128%;
+        text-align: center;
+        
+        
+    }
+    .aboutShop {
+        height: 100%; //1080px;
+        width: 100%; //1920px;
+        background-color: #EAE4D1;
+        border-top: 1px solid#EAE4D1;
+    
+        .aboutShop1 {
+            margin-top: 3%;
+            width: 100%; //1920px;
+            height: 10%; //172.8px
+    
+            .aboutShop1-1 {
+                color: #65453B;
+                text-transform: uppercase;
+                font-size: 187.5%;
+                font-weight: bold;
+                margin-left: 45%;
+            }
+    
+            .aboutShop1-2 {
+                color: #65453B;
+                text-transform: uppercase;
+                text-align: justify;
+                margin-left: 3%;
+                margin-right: 3%;
+                margin-top: 0.03%;
+            }
+        }
+    
+        .aboutShop2 {
+            height: 60%;//648px;
+            width: 100%;//1920px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10%;
+    
+            .aboutShop2-1,
+            .aboutShop2-2,
+            .aboutShop2-3 {
+                transition-duration: 2s;
+                height: 100%;//648px
+                width: 32%;//614,4px
+                border: 1px solid white;
+    
+                &:hover {
+                    background-color: #F1D184;
+                }
+    
+                .aboutShop2-1-1,
+                .aboutShop2-2-1,
+                .aboutShop2-3-1 {
+                    margin-left: 25%;
+                    margin-top: 10%;
+                    height: 45%;//291,6px
+                    width: 50%;//307,2px
+                }
+    
+                .aboutShop2-1-2,
+                .aboutShop2-2-2,
+                .aboutShop2-3-2 {
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    font-size: 218.75%;
+                    margin-left: 20%;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+    
+                .aboutShop2-1-3,
+                .aboutShop2-2-3,
+                .aboutShop2-3-3 {
+                    color: #FFFFFF;
+                    font-size: 125%;
+                    margin-left: 24%;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+    
+            // Media query để ẩn aboutShop2 khi màn hình nhỏ hơn 1000px
+            @media (max-width: 1000px) {
+                display: none;
+            }
+        }
+    }
+           
+
+    .Sp{
+        width: 80,2%;//1539,84px
+        height: 64,8%;//700px
+
+        .NewsProduct{
+            width: 91,50%;//1409px
+            height: 12%;//84px;
+            margin: auto;
+            text-transform: uppercase;
+            display: flex;
+            .spm{
+                margin-top: 1%;
+                margin-left: 45%;
+                color: black;
+                font-size: 175.5%;
+                font-weight: bold;
+            }
+
+            .circleleft{
+                margin-top: 1%;
+                margin-left: 23%;
+                font-size: 170.5%;
+            }
+            .circleleft:hover{
+                cursor: pointer;
+            }
+
+
+            .circleright{
+                margin-top: 1%;
+                margin-left: 1%;
+                font-size: 170.5%;
+            }
+
+            .circleright:hover{
+                cursor: pointer;
+            }
+        }
+
+        .Sanpham {
+            height: 79.71%; //556.57px
+            width: 91.50%; //1408.9536px
+            margin: auto;
+            margin-top: 1%;
+            position: relative;
+            background-color: #B5DDAB;
+        
+            .sp1 {
+                height: 85%; //473.0845px
+                width: 85.1%; //1200px 
+                margin-left: 7%;
+                display: flex;
+        
+                .sp1-1 {
+                    height: 100%; //473.0845px
+                    width: 49%; //588px;
+                    background-color: whitesmoke;
+                    border-radius: 2%;
+        
+                    .sp1-1h {
+                        height: 60%; //283.85px
+                        width: 90%; //529.2px
+                        transition-duration: 2s;
+                        margin-left: 4%;
+                    }
+        
+                    .sp1-1h:hover {
+                        filter: blur(5px);
+                    }
+        
+                    .sp1-1c {
+                        margin-top: 1%;
+                        font-size: 180%;
+                        margin-left: 18%;
+                        text-decoration: none;
+                    }
+        
+                    .sp1-1g {
+                        display: flex;
+        
+                        .sp1-1g1 {
+                            font-size: 130.25%;
+                            margin-left: 25%;
+                        }
+        
+                        .sp1-1g2 {
+                            font-size: 130.25%;
+                        }
+        
+                        .sp1-1g2:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+        
+                .sp1-2 {
+                    height: 100%; // Đồng nhất với sp1-1
+                    width: 49%; // Đồng nhất với sp1-1
+                    background-color: whitesmoke;
+                    border-radius: 2%;
+                    margin-left: 2%; // Giữ khoảng cách giống sp1-1
+        
+                    .sp1-2h {
+                        height: 60%; // Đồng nhất với sp1-1h
+                        width: 90%; // Đồng nhất với sp1-1h
+                        transition-duration: 2s;
+                        margin-left: 4%; // Để căn chỉnh giống nhau
+                    }
+        
+                    .sp1-2h:hover {
+                        filter: blur(5px);
+                    }
+        
+                    .sp1-2c {
+                        margin-top: 1%; // Để đồng nhất với sp1-1c
+                        font-size: 180%; // Để đồng nhất với sp1-1c
+                        margin-left: 18%; // Để căn chỉnh giống nhau
+                        text-decoration: none;
+                    }
+        
+                    .sp1-2g {
+                        display: flex;
+        
+                        .sp1-2g1 {
+                            font-size: 130.25%; // Để đồng nhất với sp1-1g
+                            margin-left: 25%; // Để căn chỉnh giống nhau
+                        }
+        
+                        .sp1-2g2 {
+                            font-size: 130.25%; // Để đồng nhất với sp1-1g
+                        }
+        
+                        .sp1-2g2:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        
+            .sp2 {
+                width: 85.1%; // Để đồng nhất với sp1
+                height: 85%; // Giữ chiều cao đồng nhất với sp1
+                display: flex;
+                position: absolute;
+                top: 0; // Đặt để align với sp1
+                left: 7%; // Để align với sp1
+                padding: 0;
+                margin: 0;
+        
+                .sp2-1 {
+                    height: 100%; // Để đồng nhất với sp1-1
+                    width: 49%; // Để đồng nhất với sp1-1
+                    background-color: whitesmoke;
+                    border-radius: 2%; // Giữ border-radius giống sp1-1
+        
+                    .sp2-1h {
+                        height: 60%; // Đồng nhất với sp1-1h
+                        width: 90%; // Đồng nhất với sp1-1h
+                        transition-duration: 2s;
+                        margin-left: 4%; // Giữ khoảng cách giống sp1-1h
+                    }
+        
+                    .sp2-1h:hover {
+                        filter: blur(5px);
+                    }
+        
+                    .sp2-1c {
+                        margin-top: 1%; // Đồng nhất với sp1-1c
+                        font-size: 180%; // Đồng nhất với sp1-1c
+                        margin-left: 18%; // Căn chỉnh giống như sp1-1c
+                        text-decoration: none;
+                    }
+        
+                    .sp2-1g {
+                        display: flex;
+        
+                        .sp2-1g1 {
+                            font-size: 130.25%; // Đồng nhất với sp1-1g
+                            margin-left: 25%; // Căn chỉnh giống như sp1-1g
+                        }
+        
+                        .sp2-1g2 {
+                            font-size: 130.25%; // Đồng nhất với sp1-1g
+                        }
+        
+                        .sp2-1g2:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+        
+                .sp2-2 {
+                    height: 100%; // Để đồng nhất với sp1-1
+                    width: 49%; // Để đồng nhất với sp1-1
+                    background-color: whitesmoke;
+                    border-radius: 2%; // Giữ border-radius giống sp1-1
+                    margin-left: 2%; // Giữ khoảng cách giống sp1-1
+        
+                    .sp2-2h {
+                        height: 60%; // Đồng nhất với sp1-1h
+                        width: 90%; // Đồng nhất với sp1-1h
+                        transition-duration: 2s;
+                        margin-left: 4%; // Giữ khoảng cách giống sp1-1h
+                    }
+        
+                    .sp2-2h:hover {
+                        filter: blur(5px);
+                    }
+        
+                    .sp2-2c {
+                        margin-top: 1%; // Đồng nhất với sp1-1c
+                        font-size: 180%; // Đồng nhất với sp1-1c
+                        margin-left: 18%; // Căn chỉnh giống như sp1-1c
+                        text-decoration: none;
+                    }
+        
+                    .sp2-2g {
+                        display: flex;
+        
+                        .sp2-2g1 {
+                            font-size: 130.25%; // Đồng nhất với sp1-1g
+                            margin-left: 25%; // Căn chỉnh giống như sp1-1g
+                        }
+        
+                        .sp2-2g2 {
+                            font-size: 130.25%; // Đồng nhất với sp1-1g
+                        }
+        
+                        .sp2-2g2:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }        
+    }        
+
+    .Tintuc{
+        height: 100%;//1080
+        width: 100%;//1920px
+        background-color: #95DECB;
+        margin-top: 1%;
+
+        .Baiviet{
+            height: 4%;
+            width: 100%;
+            padding-left: 45%;
+            font-size: 165%;
+            font-weight: bold;
+        }
+
+        .Tin {
+            height: 95%; 
+            width: 100%; 
+            margin: auto;
+            display: flex;
+            gap: 2%; /* khoảng cách giữa các cột */
+            background-color: #C1C1C1;
+            margin-top: 1%;
+             
+            .Tin1{
+                margin-left: 0%;
+            }
+            .Tin1, .Tin2, .Tin3 {
+                width: 33%; 
+                height: 100%; 
+                background-color: #FFFFFF;
+        
+                .Tin1-1, .Tin2-1, .Tin3-1 {
+                    height: 20%; 
+                    width: 100%;
+                }
+        
+                .Tin1-2, .Tin2-2, .Tin3-2 {
+                    width: 100%;
+                    height: 5%; 
+                    font-size: 100%;
+                    font-weight: bold;
+                   
+                }
+        
+                .Tin1-3, .Tin2-3, .Tin3-3 {
+                    font-size: 100%;
+                    margin-top: 1%;
+                }
+            }
+        }
+              
+    }
+
+    .DN{
+        height: 46,296%;//500px
+        width: 100%;//1920px
+
+        .DN1{
+            font-size: 250%;
+            margin-left: 7%;
+            margin-top: 8%;
+        }
+    }
+
+    
+    .DK{
+        height: 46,296%;//500px
+        width: 100%;//1920px
+
+        .DK1{
+            font-size: 250%;
+            margin-left: 7%;
+            margin-top: 8%;
+        }
+    }
+
+    
+.giohang {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2%;
+
+    h1 {
+        font-size: 150%;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+
+    .ght {
+        border: 1px solid #ddd;
+        margin-bottom: 2%;
+
+        .ght-header, .ght-row, .ght-footer {
+            display: flex;
+            padding: 1%;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+
+            div {
+                flex: 1;
+                text-align: center;
+                font-size: 90%;
+            }
+        }
+
+        .ght-header {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+
+        .ght-row:last-child, .ght-footer {
+            border-bottom: none;
+        }
+
+        .product-image {
+            width: 80%;
+            height: auto;
+            max-width: 100px;
+            object-fit: cover;
+        }
+
+        .quantity-input {
+            width: 60%;
+            padding: 5%;
+            text-align: center;
+        }
+
+        .delete-button {
+            background: none;
+            border: none;
+            font-size: 100%;
+            color: red;
+            cursor: pointer;
+        }
+    }
+
+    .action-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+
+        .continue-shopping, .checkout-button {
+            padding: 2% 4%;
+            border: none;
+            border-radius: 4px;
+            color: #ffffff;
+            font-size: 100%;
+            cursor: pointer;
+
+            &:hover {
+                filter: brightness(90%);
+            }
+        }
+
+        .continue-shopping {
+            background-color: #28a745;
+        }
+
+        .checkout-button {
+            background-color: #0D6EFD;
+        }
+    }
+}
+     .Lienhe {
+            height: 60.19%;
+            width: 80.40%;
+            margin-top: 2%;
+            display: flex;
+
+            .contact1 {
+                width: 41.67%;
+                height: 100%; 
+                margin-top: 70px; 
+            }
+
+            .Thongtin {
+                height: 100%; 
+                width: 36.46%;
+                margin-top: 12%; 
+
+                .bando {
+                    width: 100%; 
+                    height: 80.60%; 
+                }
+            }
+    }
+    .Muiten{
+        font-size: 250%;
+        margin-left: 80%;
+    }
+    .Muiten:hover{
+        cursor: pointer;
+    }
+
+    
+   
+}
